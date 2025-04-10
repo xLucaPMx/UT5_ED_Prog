@@ -1,0 +1,8 @@
+@startuml SUV
+class SUV {
+-capacidadOffroad : boolean
+-alturaLibreSuelo : double
+}
+SUV --|> Coche
+
+@enduml

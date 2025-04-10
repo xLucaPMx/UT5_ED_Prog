@@ -1,0 +1,16 @@
+@startuml Sedan
+class Sedan {
+-espacioInterior : double
+-nivelConfort : NivelConfort
+}
+
+enum NivelConfort {
+  BASICO
+  MEDIO
+  PREMIUM
+}
+
+Sedan --|> Coche
+Sedan "1" *-- "1" NivelConfort
+
+@enduml

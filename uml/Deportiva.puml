@@ -1,0 +1,8 @@
+@startuml MotoDeportiva
+class MotoDeportiva {
+-velocidadMaxima : double
+-tieneQuickShifter : boolean
+}
+MotoDeportiva --|> Moto
+
+@enduml

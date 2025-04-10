@@ -1,0 +1,25 @@
+@startuml Coche
+class Coche{
+-numPuertas : int
+-tipoCombustible : TipoCombustible
+-capacidadMaletero : int
+-traccion : Traccion
+}
+
+enum TipoCombustible{
+    GASOLINA
+    DIESEL
+    HIBRIDO
+    ELECTRICO
+}
+enum Traccion{
+    DELANTERA
+    TRASERA
+    4X4
+}
+
+Coche --|> Vehiculo
+Coche "1" *-- "1" TipoCombustible
+Coche "1" *-- "1" Traccion
+
+@enduml

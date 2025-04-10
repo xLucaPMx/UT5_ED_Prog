@@ -1,0 +1,22 @@
+@startuml Vehiculo
+abstract class Vehiculo{
+-matricula : String
+-marca : String
+-modelo : String
+-anyoFabricacion : int
+-kilometraje : int
+-precio : double
+-estado : Estado
+-propietario : Persona
++calcularRiesgo(experienciaConductor : int) : double
+}
+enum Estado{
+    DISPONIBLE
+    VENDIDO
+}
+
+Vehiculo --|> Valorable
+Vehiculo o-- "0..1" Persona : tiene propietario
+Vehiculo "1" *-- "1" Estado
+
+@enduml

@@ -1,0 +1,16 @@
+@startuml Moto
+class Moto {
+-cilindrada : int
+-peso : int
+-alturaAsiento : double
+-tipoTransmision : TipoTransmision
+}
+
+enum TipoTransmision {
+  MANUAL
+  AUTOMATICA
+}
+Moto --|> Vehiculo
+Moto "1" *-- "1" TipoTransmision
+
+@enduml

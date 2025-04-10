@@ -1,0 +1,10 @@
+@startuml Persona
+class Persona{
+-nombre : String
+-apellidos : String
+-dni : String
+-fechaNacimiento : int
+-fechaCaducidadCarnet : Date
+}
+
+@enduml

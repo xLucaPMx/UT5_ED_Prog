@@ -1,0 +1,9 @@
+@startuml Deportivo
+class Deportivo {
+-aceleracion0a100 : double
+-potenciaCV : int
+-tieneModoPista : boolean
+}
+Deportivo --|> Coche
+
+@enduml

@@ -1,0 +1,10 @@
+@startuml Camion
+class Camion {
+-capacidadCarga : double
+-numEjes : int
+-longitudRemolque : double
+-potenciaMotor : int
+}
+Camion --|> Vehiculo
+
+@enduml

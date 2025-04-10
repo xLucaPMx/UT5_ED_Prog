@@ -1,0 +1,7 @@
+@startuml Scooter
+class Scooter {
+-espacioBajoAsiento : int
+}
+Scooter --|> Moto
+
+@enduml
