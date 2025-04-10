@@ -4,4 +4,4 @@
 - [x] Clase abstracta, subclases, subtipos y persona
 - [x] Añadir atributos y métodos
 - [x] Definir relaciones entre clases
-- [ ] Generar diagrama .svg
+- [x] Generar diagrama .svg
