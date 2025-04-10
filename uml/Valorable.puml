@@ -1,0 +1,6 @@
+@startuml Valorable
+interface Valorable {
+  +calcularDepreciacion() : double
+}
+
+@enduml
