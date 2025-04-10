@@ -11,6 +11,6 @@ enum TipoTransmision {
   AUTOMATICA
 }
 Moto --|> Vehiculo
-Moto "1" *-- "1" TipoTransmision
+Moto --> TipoTransmision
 
 @enduml

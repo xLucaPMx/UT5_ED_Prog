@@ -11,6 +11,6 @@ enum NivelConfort {
 }
 
 Sedan --|> Coche
-Sedan "1" *-- "1" NivelConfort
+Sedan --> NivelConfort
 
 @enduml

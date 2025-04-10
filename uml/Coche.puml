@@ -19,7 +19,7 @@ enum Traccion{
 }
 
 Coche --|> Vehiculo
-Coche "1" *-- "1" TipoCombustible
-Coche "1" *-- "1" Traccion
+Coche --> TipoCombustible
+Coche --> Traccion
 
 @enduml

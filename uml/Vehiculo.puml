@@ -15,8 +15,8 @@ enum Estado{
     VENDIDO
 }
 
-Vehiculo --|> Valorable
+Vehiculo ..|> Valorable
 Vehiculo o-- "0..1" Persona : tiene propietario
-Vehiculo "1" *-- "1" Estado
+Vehiculo --> Estado
 
 @enduml
