@@ -2,6 +2,6 @@
 ## Checklist
 - [x] Estructura inicial del repositorio
 - [x] Clase abstracta, subclases, subtipos y persona
-- [ ] Añadir atributos y métodos
-- [ ] Definir relaciones entre clases
+- [x] Añadir atributos y métodos
+- [x] Definir relaciones entre clases
 - [ ] Generar diagrama .svg
