@@ -1,0 +1,14 @@
+@startuml
+!include ../../UT5_ED_Prog-demo/uml/Vehiculo.puml
+!include ../../UT5_ED_Prog-demo/uml/Persona.puml
+!include ../../UT5_ED_Prog-demo/uml/Coche.puml
+!include ../../UT5_ED_Prog-demo/uml/Moto.puml
+!include ../../UT5_ED_Prog-demo/uml/Camion.puml
+!include ../../UT5_ED_Prog-demo/uml/SUV.puml
+!include ../../UT5_ED_Prog-demo/uml/Sedan.puml
+!include ../../UT5_ED_Prog-demo/uml/Deportivo.puml
+!include ../../UT5_ED_Prog-demo/uml/Scooter.puml
+!include ../../UT5_ED_Prog-demo/uml/Deportiva.puml
+!include ../../UT5_ED_Prog-demo/uml/Valorable.puml
+
+@enduml
