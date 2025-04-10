@@ -5,3 +5,5 @@
 - [x] Añadir atributos y métodos
 - [x] Definir relaciones entre clases
 - [x] Generar diagrama .svg
+
+![Diagrama de clases](uml/diagrama_clases.svg)
